@@ -1,0 +1,47 @@
+/**estilos span**/
+.span-techo{
+    color:#F3F3F3;
+    width: 1024px;
+    height: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+
+}
+
+#span-izquierdo{
+    align-self: flex-start;
+    
+
+}
+
+#span-derecho{
+   display: flex;
+   flex-direction: column;
+align-items: center;
+}
+
+
+/**aca empieza el nav-estilos**/
+.nav-container{
+    background: #F0A83E;
+    display: flex;
+    width: 1024px;
+    height: 62px;
+}
+
+.logo-navegador{
+    width:96.35px ;
+    height: 23px;
+    top: 39px;
+    left: 107px;
+}
+
+.listas-cont{
+    display: flex;
+    list-style-type: none;
+}
+
+
+
