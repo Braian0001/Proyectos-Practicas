@@ -26,6 +26,8 @@ align-items: center;
 /**aca empieza el nav-estilos**/
 .nav-container{
     background: #F0A83E;
+    align-items: center;
+    justify-content: space-between;
     display: flex;
     width: 1024px;
     height: 62px;
@@ -36,11 +38,20 @@ align-items: center;
     height: 23px;
     top: 39px;
     left: 107px;
+    margin-left: 1rem;
 }
 
-.listas-cont{
+.barra{
+    
+    justify-content: space-between;
+}
+
+ul.listas-cont{
+
     display: flex;
     list-style-type: none;
+    margin-right: 6.25rem;
+    gap: 1rem;
 }
 
 
